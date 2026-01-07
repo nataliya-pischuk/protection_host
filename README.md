@@ -32,9 +32,15 @@
 
 Зашифровала раздел sda3
 
-sudo cryptsetup -y -v --type luks2 luksFormas /dev/sdb3 — сама шифровка
+sudo cryptsetup -y -v --type luks2 luksFormas /dev/sda3 — сама шифровка
+
+![alt text](img/6.1.JPG)
+
+Провела монтирование раздела и выврл смонтированного диска
+![alt text](img/8.JPG)
+![alt text](img/9.JPG)
 
 
-
-sudo cryptsetup luksDump /dev/sdb1 — для проверки шифрования
+sudo cryptsetup luksDump /dev/sda3 — для проверки шифрования
+![alt text](img/10.JPG)
 
