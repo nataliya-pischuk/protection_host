@@ -41,6 +41,6 @@ sudo cryptsetup -y -v --type luks2 luksFormas /dev/sda3 — сама шифро�
 ![alt text](img/9.JPG)
 
 
-sudo cryptsetup luksDump /dev/sda3 — для проверки шифрования
+sudo cryptsetup luksDump /dev/sda3 — проверка шифрования
 ![alt text](img/10.JPG)
 
